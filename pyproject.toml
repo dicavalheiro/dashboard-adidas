@@ -17,7 +17,7 @@ plotly = "^5.24.1"
 ipykernel = "^6.29.5"
 
 [tool.poetry.packages]
-include = ["dashboard_adidas"]  # Ou "src/dashboard_adidas" dependendo de sua estrutura
+include = ["src/dashboard_adidas"]
 
 [build-system]
 requires = ["poetry-core"]
